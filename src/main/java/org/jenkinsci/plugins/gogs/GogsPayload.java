@@ -5,7 +5,8 @@ import hudson.model.AbstractBuild;
 import hudson.model.EnvironmentContributingAction;
 import hudson.model.InvisibleAction;
 
-import javax.annotation.Nonnull;
+import edu.umd.cs.findbugs.annotations.NonNull;
+
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -17,7 +18,7 @@ class GogsPayload extends InvisibleAction implements EnvironmentContributingActi
         this.payload = payload;
     }
 
-    @Nonnull
+    @NonNull
     private Map<String, String> getPayload() {
         return payload;
     }
