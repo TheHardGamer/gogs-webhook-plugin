@@ -17,6 +17,7 @@
     <java.level>8</java.level>
     <java.level.test>8</java.level.test>
     <findbugs.failOnError>false</findbugs.failOnError>
+    <enforcer.skip>true</enforcer.skip>
   </properties>
 
   <name>Jenkins Gogs plugin</name>
